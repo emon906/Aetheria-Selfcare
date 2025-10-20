@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,6 +20,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
      <!-- google font -->
+      <!-- font awosome -->
+       <script src="https://kit.fontawesome.com/2489740162.js" crossorigin="anonymous"></script>
+      <!-- font awosome -->
+      <!-- favicon -->
+       <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+      <!-- favicon -->
     <style>
         .font-DM-Sans{
               font-family: "DM Sans", sans-serif;
@@ -33,6 +39,236 @@
     </style>
 </head>
 <body>
-    
+     <!-- Navbar -->
+  <div class="w-full bg-[#a7a3a0] fixed top-0 left-0 z-50">
+    <div class="py-3 flex justify-between items-center">
+      <div class="flex items-center gap-4">
+        <button id="menu-btn" class="md:hidden focus:outline-none">
+          <i class="fas fa-bars text-xl text-black"></i>
+        </button>
+        <ul class="hidden md:flex gap-2 font-medium">
+          <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold">Shop All</a></li>
+          <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold">Collections</a></li>
+          <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold">Gallery</a></li>
+          <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold">Contact</a></li>
+        </ul>
+      </div>
+      <a href="index.html" class="text-[#b45a3c] font-bold text-lg cursor-pointer font-Fraunces">
+        AETHERIA SELFCARE
+      </a>
+      <div class=" md:flex items-center space-x-4 text-lg">
+        <button class="hover:bg-[#b45a3c] px-3 py-2 lg:block hidden rounded-full text-[#110907]"><i class="fas fa-search"></i></button>
+        <button class="hover:bg-[#b45a3c] px-3 py-2  rounded-full text-[#110907]"><i class="fas fa-shopping-cart"></i></button>
+        <button class="hover:bg-[#b45a3c] px-3 py-2 lg:block hidden rounded-full text-[#110907]"><i class="fas fa-sun"></i></button>
+      </div>
+    </div>
+</div>
+    <!-- header start -->
+     <header>
+  <!-- Hero -->
+  <div class="relative w-full h-screen flex items-center justify-center text-center overflow-hidden">
+    <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover">
+      <source src="img/hero-video.AB312IRQ.mp4" type="video/mp4">
+    </video>
+    <div class="absolute inset-0 bg-black/60"></div>
+    <div class="relative z-10 flex flex-col items-center px-4 sm:px-6 md:px-8 text-center">
+      <p id="datetime" class="font-IBM-Plex-Mono text-xs sm:text-sm mb-3  text-gray-200 uppercase">Mon, Oct 20 <span>11:03:14 AM</span></p>
+      <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold mb-3 text-white font-Fraunces">
+        Your perfect scent awaits
+      </h1>
+      <p class="text-gray-300 font-semibold mb-8 text-sm sm:text-base font-Fraunces">
+        SELFCARE, MADE EASY
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <button class="bg-[#b45a3c] text-white font-DM-Sans font-semibold px-6 py-3 rounded-xl hover:bg-[#9b4e34] transition w-full sm:w-auto">
+          Explore Collections →
+        </button>
+        <button class="bg-[#f3e7de] font-DM-Sans text-black flex items-center justify-center gap-2 px-6 py-3 rounded-xl hover:bg-[#e7d8cb] transition w-full sm:w-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M21 21l-4.35-4.35M17 10a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          <span class="text-sm sm:text-base font-DM-Sans">Search Aetheria Selfcare</span>
+        </button>
+      </div>
+    </div>
+</div>
+<!-- hero -->
+     </header>
+    <!-- header end -->
+     <!-- section -->
+      <section>
+         <div class="flex justify-evenly items-center my-6">
+           <div>
+            <h1 class="text-xl font-bold md:text-3xl lg:text-5xl text-black">Hot Discounts</h1>
+            <p class="text-[#62514C] text-xl font-bold md:text-3xl lg:text-4xl">Up to 47% off</p>
+           </div>
+           <hr class="bg-[#62514C] w-[1000px]">
+           <div>
+            <h2 class="md:text-6xl lg:text-7xl font-bold text-4xl text-primary/35">00</h2>
+           </div>
+         </div>
+         <!-- flex -->
+          <div class="flex">
+            <!-- grid -->
+             <div class="grid grid-cols-4">
+                <!-- card -->
+                 <div class="bg-white rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+    <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
+      29% OFF
+    </span>
+    <img class="rounded-lg"
+      src="img/Gemini_Generated_Image_o7ckfeo7ckfeo7ck.webp"
+      alt="Gemini_Generated_Image"/>
+    <button
+      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 21a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25zm-9 0a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z" />
+      </svg>
+      ADD TO CART
+    </button>
+  </div>
+  <div class="mt-4">
+    <h3 class="text-lg font-semibold text-gray-900">Lilac Lush Hair Mist</h3>
+    <p class="text-sm text-gray-500 mt-1">Hair Care</p>
+    <div class="mt-3 flex items-end justify-between">
+      <div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-xl font-bold text-gray-900">BDT 750</span>
+          <span class="text-sm text-gray-400 line-through">BDT 1,050</span>
+        </div>
+      </div>
+      <button
+        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
+       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
+       Add to Card
+      </button>
+    </div>
+  </div>
+</div>
+                <!-- card -->
+                <!-- card -->
+                 <div class="bg-white rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+    <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
+      29% OFF
+    </span>
+    <img class="rounded-lg"
+      src="img/Gemini_Generated_Image_8ihz3i8ihz3i8ihz-Enhanced.webp"
+      alt="Gemini_Generated_Image"/>
+    <button
+      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 21a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25zm-9 0a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z" />
+      </svg>
+      ADD TO CART
+    </button>
+  </div>
+  <div class="mt-4">
+    <h3 class="text-lg font-semibold text-gray-900">Lilac Lush Hair Mist</h3>
+    <p class="text-sm text-gray-500 mt-1">Hair Care</p>
+    <div class="mt-3 flex items-end justify-between">
+      <div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-xl font-bold text-gray-900">BDT 750</span>
+          <span class="text-sm text-gray-400 line-through">BDT 1,050</span>
+        </div>
+      </div>
+      <button
+        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
+       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
+       Add to Card
+      </button>
+    </div>
+  </div>
+</div>
+                <!-- card -->
+                <!-- card -->
+                 <div class="bg-white rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+    <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
+      29% OFF
+    </span>
+    <img class="rounded-lg"
+      src="img/DSC01260.webp"
+      alt="DSC01260"/>
+    <button
+      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 21a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25zm-9 0a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z" />
+      </svg>
+      ADD TO CART
+    </button>
+  </div>
+  <div class="mt-4">
+    <h3 class="text-lg font-semibold text-gray-900">Lilac Lush Hair Mist</h3>
+    <p class="text-sm text-gray-500 mt-1">Hair Care</p>
+    <div class="mt-3 flex items-end justify-between">
+      <div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-xl font-bold text-gray-900">BDT 750</span>
+          <span class="text-sm text-gray-400 line-through">BDT 1,050</span>
+        </div>
+      </div>
+      <button
+        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
+       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
+       Add to Card
+      </button>
+    </div>
+  </div>
+</div>
+                <!-- card -->
+                <!-- card -->
+                 <div class="bg-white rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+    <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
+      29% OFF
+    </span>
+    <img class="rounded-lg"
+      src="img/Gemini_Generated_Image_1lt26r1lt26r1lt2.webp"
+      alt="Gemini_Generated_Image"/>
+    <button
+      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 21a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25zm-9 0a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z" />
+      </svg>
+      ADD TO CART
+    </button>
+  </div>
+  <div class="mt-4">
+    <h3 class="text-lg font-semibold text-gray-900">Lilac Lush Hair Mist</h3>
+    <p class="text-sm text-gray-500 mt-1">Hair Care</p>
+    <div class="mt-3 flex items-end justify-between">
+      <div>
+        <div class="flex items-baseline gap-2">
+          <span class="text-xl font-bold text-gray-900">BDT 750</span>
+          <span class="text-sm text-gray-400 line-through">BDT 1,050</span>
+        </div>
+      </div>
+      <button
+        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
+       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
+       Add to Card
+      </button>
+    </div>
+  </div>
+</div>
+                <!-- card -->
+             </div>
+            <!-- grid -->
+          </div>
+         <!-- flex -->
+      </section>
+     <!-- section -->
 </body>
 </html>

@@ -1,0 +1,22 @@
+<div class="bg-[#a7a3a0]">
+    <div class="py-3 flex justify-between gap-14 items-center">
+      <div>
+        <div class="md:hidden block"><i class="fa-solid fa-bars text-[#110907]"></i></div>
+        <ul class="flex lg:gap-4 gap-2">
+        <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold md:block hidden">Shop All</a></li>
+        <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold md:block hidden">Collections</a></li>
+        <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold md:block hidden">Gallery</a></li>
+        <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold md:block hidden">Contact</a></li>
+      </ul>
+      </div>
+      <a href="index.html" class="text-[#b45a3c] font-bold text-lg cursor-pointer font-Fraunces">
+        AETHERIA SELFCARE
+      </a>
+      <div class="flex gap-8 text-black items-center">
+       <a class="hover:bg-[#AF644E] p-2 rounded-full" href="#"><i class="fa-solid fa-magnifying-glass md:block hidden"></i></a>
+       <a class="hover:bg-[#AF644E] p-2 rounded-full" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+       <a class="hover:bg-[#AF644E] p-2 rounded-full" href="#"><i class=" fas fa-sun md:block hidden"></i></a>
+      </div>
+    </div>
+  </div>
+<!-- Navbar -->
