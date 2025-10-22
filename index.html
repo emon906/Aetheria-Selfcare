@@ -39,10 +39,8 @@
     </style>
 </head>
 <body>
-  
- <header class="w-full bg-[#a7a3a0]  top-0 left-0 z-50" style="position: sticky;">
-      <!-- Navbar -->    
-  <div class="w-full bg-[#a7a3a0]  top-0 left-0 z-50">
+  <!-- navbar header -->
+ <header class="w-full  top-0 left-0 z-50 overflow-hidden" style="position: sticky;">
     <!-- marquee -->
      <marquee behavior="" class="bg-[#AF644E]  font-DM-Sans font-semibold text-base text-white py-2" direction="alternate">
     <span class="mx-2">• BUY 4 GET FREE DELIVERY ALL OVER BD</span>
@@ -58,9 +56,9 @@
     <span class="mx-2">• BUY 4 GET FREE DELIVERY ALL OVER BD</span>
   </marquee>
     <!-- marquee -->
-    <div class="navbar backdrop-blur-md bg-[rgba(255,252,250,0.7)] bg-gradient-to-b from-[rgba(255,255,255,0.8)] to-[rgba(250,245,240,0.6)] border-b border-[rgba(0,0,0,0.05)] shadow-sm">
+     <!-- navbar -->
+    <div class="navbar -mt-1.5 backdrop-blur-lg bg-[rgba(255,252,250,0.7)] bg-gradient-to-b from-[rgba(255,255,255,0.8)] to-[rgba(250,245,240,0.6)] border-b border-[rgba(0,0,0,0.05)] shadow-sm">
   <div class="navbar-start">
-    <!-- Mobile Menu Button -->
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
         <svg
@@ -76,19 +74,57 @@
       <ul
         tabindex="0"
         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold">Shop All</a></li>
-          <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold">Collections</a></li>
-          <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold">Gallery</a></li>
-          <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold">Contact</a></li>
+        <li><a href="#" class="relative text-[#AF644E] font-semibold group">
+    Shop All
+    <span
+      class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#AF644E] transition-all duration-300 group-hover:w-full group-hover:left-0"
+    ></span>
+  </a></li>
+          <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans font-semibold group">
+    Collections
+    <span
+      class="absolute left-1/2 bottom-0 w-0 h-[2px] text-black hover:text-[#AF644E] font-DM-Sans transition-all duration-300 group-hover:w-full group-hover:left-0"
+    ></span>
+  </a></li>
+          <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans] font-semibold group">
+   Gallery
+    <span
+      class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#AF644E] transition-all duration-300 group-hover:w-full group-hover:left-0"
+    ></span>
+  </a></li>
+          <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans font-semibold group">
+    Contact
+    <span
+      class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#AF644E] transition-all duration-300 group-hover:w-full group-hover:left-0"
+    ></span>
+  </a></li>
       </ul>
     </div>
-
-    <!-- Desktop Menu -->
     <ul class="menu menu-horizontal px-1 hidden lg:flex">
-      <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold">Shop All</a></li>
-          <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold">Collections</a></li>
-          <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold">Gallery</a></li>
-          <li><a href="#" class="hover:text-[#AF644E] text-[#110907] hover:underline font-DM-Sans px-3 py-2 text-sm font-bold">Contact</a></li>
+       <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans font-semibold group">
+    Shop All
+    <span
+      class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#AF644E] transition-all duration-300 group-hover:w-full group-hover:left-0"
+    ></span>
+  </a></li>
+          <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans font-semibold group">
+    Collections
+    <span
+      class="absolute left-1/2 bottom-0 w-0 h-[2px] text-black hover:text-[#AF644E] font-DM-Sans transition-all duration-300 group-hover:w-full group-hover:left-0"
+    ></span>
+  </a></li>
+          <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans] font-semibold group">
+   Gallery
+    <span
+      class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#AF644E] transition-all duration-300 group-hover:w-full group-hover:left-0"
+    ></span>
+  </a></li>
+          <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans font-semibold group">
+    Contact
+    <span
+      class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#AF644E] transition-all duration-300 group-hover:w-full group-hover:left-0"
+    ></span>
+  </a></li>
     </ul>
   </div>
 
@@ -99,7 +135,7 @@
   </div>
 
   <div class="navbar-end">
-    <button class="btn btn-ghost btn-circle">
+    <button class="btn btn-ghost hover:bg-[#b45a3c] hover:text-white btn-circle">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-5 w-5"
@@ -113,8 +149,9 @@
           d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
       </svg>
     </button>
-
-    <button class="btn btn-ghost btn-circle">
+<div class="md:block hidden">
+  
+    <button class="btn btn-ghost hover:bg-[#b45a3c] hover:text-white btn-circle">
       <div class="indicator">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -128,15 +165,21 @@
             stroke-width="2"
             d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
         </svg>
-        <span class="badge badge-xs badge-primary indicator-item"></span>
       </div>
     </button>
+    <button class="btn btn-ghost hover:bg-[#b45a3c] hover:text-white btn-circle">
+      <div class="indicator">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-shopping-cart"><!--[--><!----><circle cx="8" cy="21" r="1"><!----></circle><!----><!----><circle cx="19" cy="21" r="1"><!----></circle><!----><!----><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"><!----></path><!----><!--]--><!----><!----></svg>
+      </div>
+    </button>
+</div>
   </div>
 </div>
 
-<!-- Navbar -->
+<!-- navbar -->
  </header>
-    <!-- header start -->
+ <!-- navbar header -->
+    <!-- header hero -->
      <header>
   <!-- Hero -->
   <div class="relative w-full flex items-center justify-center py-64 text-center overflow-hidden">
@@ -166,7 +209,7 @@
       </div>
     </div>
 </div>
-<!-- hero -->
+<!-- header hero -->
      </header>
     <!-- header end -->
      <!-- section -->
