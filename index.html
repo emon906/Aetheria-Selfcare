@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +27,13 @@
        <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
       <!-- favicon -->
     <style>
+         .custom-line{
+          border: none;
+          height: 2px;
+          background: #5c3327; 
+          width: 75%;
+          margin: 20px 0;
+         }
         .font-DM-Sans{
               font-family: "DM Sans", sans-serif;
         }
@@ -38,7 +45,7 @@
         }
     </style>
 </head>
-<body>
+<body class="bg-black">
   <!-- navbar header -->
  <header class="w-full  top-0 left-0 z-50 overflow-hidden" style="position: sticky;">
     <!-- marquee -->
@@ -57,7 +64,7 @@
   </marquee>
     <!-- marquee -->
      <!-- navbar -->
-    <div class="navbar -mt-1.5 backdrop-blur-lg bg-[rgba(255,252,250,0.7)] bg-gradient-to-b from-[rgba(255,255,255,0.8)] to-[rgba(250,245,240,0.6)] border-b border-[rgba(0,0,0,0.05)] shadow-sm">
+    <div class="navbar -mt-1.5 backdrop-blur-xl bg-[rgba(0,0,0,0.35)] bg-gradient-to-b from-[rgba(0,0,0,0.45)] to-[rgba(0,0,0,0.25)] border-b border-[rgba(0,0,0,0.05)] shadow-sm">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -80,19 +87,19 @@
       class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#AF644E] transition-all duration-300 group-hover:w-full group-hover:left-0"
     ></span>
   </a></li>
-          <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans font-semibold group">
+          <li><a href="#" class="relative text-[#BEB8B6] hover:text-[#AF644E] font-DM-Sans font-semibold group">
     Collections
     <span
-      class="absolute left-1/2 bottom-0 w-0 h-[2px] text-black hover:text-[#AF644E] font-DM-Sans transition-all duration-300 group-hover:w-full group-hover:left-0"
+      class="absolute left-1/2 bottom-0 w-0 h-[2px] hover:text-[#AF644E] font-DM-Sans transition-all duration-300 group-hover:w-full group-hover:left-0"
     ></span>
   </a></li>
-          <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans] font-semibold group">
+          <li><a href="#" class="relative text-[#BEB8B6] hover:text-[#AF644E] font-DM-Sans] font-semibold group">
    Gallery
     <span
       class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#AF644E] transition-all duration-300 group-hover:w-full group-hover:left-0"
     ></span>
   </a></li>
-          <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans font-semibold group">
+          <li><a href="#" class="relative text-[#BEB8B6] hover:text-[#AF644E] font-DM-Sans font-semibold group">
     Contact
     <span
       class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#AF644E] transition-all duration-300 group-hover:w-full group-hover:left-0"
@@ -101,25 +108,25 @@
       </ul>
     </div>
     <ul class="menu menu-horizontal px-1 hidden lg:flex">
-       <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans font-semibold group">
+       <li><a href="#" class="relative text-[#BEB8B6] hover:text-[#AF644E] font-DM-Sans font-semibold group">
     Shop All
     <span
       class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#AF644E] transition-all duration-300 group-hover:w-full group-hover:left-0"
     ></span>
   </a></li>
-          <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans font-semibold group">
+          <li><a href="#" class="relative text-[#BEB8B6] hover:text-[#AF644E] font-DM-Sans font-semibold group">
     Collections
     <span
-      class="absolute left-1/2 bottom-0 w-0 h-[2px] text-black hover:text-[#AF644E] font-DM-Sans transition-all duration-300 group-hover:w-full group-hover:left-0"
+      class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#AF644E] transition-all duration-300 group-hover:w-full group-hover:left-0"
     ></span>
   </a></li>
-          <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans] font-semibold group">
+          <li><a href="#" class="relative text-[#BEB8B6] hover:text-[#AF644E] font-DM-Sans] font-semibold group">
    Gallery
     <span
       class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#AF644E] transition-all duration-300 group-hover:w-full group-hover:left-0"
     ></span>
   </a></li>
-          <li><a href="#" class="relative text-black hover:text-[#AF644E] font-DM-Sans font-semibold group">
+          <li><a href="#" class="relative text-[#BEB8B6] hover:text-[#AF644E] font-DM-Sans font-semibold group">
     Contact
     <span
       class="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#AF644E] transition-all duration-300 group-hover:w-full group-hover:left-0"
@@ -217,12 +224,12 @@
         <!-- hot discounts -->
          <div class="flex justify-evenly items-center my-6">
            <div>
-            <h1 class="text-xl font-bold md:text-3xl lg:text-5xl xl:text-4xl text-black font-Fraunces">Hot Discounts</h1>
+            <h1 class="text-xl font-bold md:text-3xl lg:text-5xl xl:text-4xl text-[#EAE3DE] font-Fraunces">Hot Discounts</h1>
             <p class="text-[#62514C] text-xl font-bold md:text-3xl lg:text-5xl xl:text-4xl font-Fraunces">Up to 47% off</p>
            </div>
-           <hr class="bg-[#62514C] xl:w-[1000px] lg:w-[500px] md:w-[400px]">
+           <hr class="custom-line">
            <div>
-            <h2 class="md:text-6xl lg:text-7xl font-bold text-4xl text-primary/35 font-Fraunces">00</h2>
+            <h2 class="md:text-6xl lg:text-7xl font-bold text-4xl text-[#503229] font-Fraunces">00</h2>
            </div>
          </div>
           <!-- hot discounts -->
@@ -231,8 +238,8 @@
             <!-- grid -->
              <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       47% OFF
     </span>
@@ -240,7 +247,7 @@
       src="img/Gemini_Generated_Image_o7ckfeo7ckfeo7ck.webp"
       alt="Gemini_Generated_Image"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -250,27 +257,23 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Mystic Mystery (Capless Bottle)</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Body Mist</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Mystic Mystery (Capless Bottle)</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Body Mist</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 450</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 850</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 450</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 850</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
+
     </div>
   </div>
 </div>
                 <!-- card -->
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       35% OFF
     </span>
@@ -278,7 +281,7 @@
       src="img/Gemini_Generated_Image_8ihz3i8ihz3i8ihz-Enhanced.webp"
       alt="Gemini_Generated_Image"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -288,27 +291,22 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Cheri O Cherry</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Body Mist</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Cheri O Cherry</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Body Mist</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 650</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 1,050</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 650</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 1,050</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
                 <!-- card -->
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       29% OFF
     </span>
@@ -316,7 +314,7 @@
       src="img/featured3.webp"
       alt="DSC01260"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -326,27 +324,22 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Lilac Lush Hair Mist</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Hair Care</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Lilac Lush Hair Mist</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Hair Care</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 750</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 1,050</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 750</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 1,050</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
                 <!-- card -->
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       29% OFF
     </span>
@@ -354,7 +347,7 @@
       src="img/Gemini_Generated_Image_1lt26r1lt26r1lt2.webp"
       alt="Gemini_Generated_Image"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -364,20 +357,15 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Hair Gloss Oil</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Hair Care</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Hair Gloss Oil</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Hair Care</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 750</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 1,050</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 750</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 1,050</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
@@ -396,12 +384,12 @@
               <!-- shop collection -->
               <div class="flex justify-evenly items-center my-6">
            <div>
-            <h1 class="text-xl font-bold md:text-3xl lg:text-4xl text-black font-Fraunces">Shop Collections</h1>
+            <h1 class="text-xl font-bold md:text-3xl lg:text-4xl text-[#503229] font-Fraunces">Shop Collections</h1>
             <h1 class="text-[#62514C] text-xl font-bold md:text-3xl lg:text-4xl font-Fraunces">Handpicked for you</h1>
            </div>
-           <hr class="bg-[#62514C]  xl:w-[1000px] lg:w-[500px] md:w-[400px]">
+           <hr class="custom-line">
            <div>
-            <h2 class="md:text-6xl lg:text-7xl font-bold text-4xl text-primary/35 font-Fraunces">01</h2>
+            <h2 class="md:text-6xl lg:text-7xl font-bold text-4xl text-[#503229] font-Fraunces">01</h2>
            </div>
          </div>
          <!-- shop collection -->
@@ -414,12 +402,12 @@
   class="hero rounded-2xl w-full h-full"
   style="background-image:url(./img/DSC09024.webp); background-position: center; background-repeat: no-repeat;background-size: cover;">
   <div class="hero flex items-end px-3 md:py-2 py-24">
-    <div class="mt-[600px] bg-white/80 rounded-xl p-4 shadow-lg">
+    <div class="mt-[600px] backdrop-blur-xl bg-[rgba(0,0,0,0.35)] bg-gradient-to-b from-[rgba(0,0,0,0.45)] to-[rgba(0,0,0,0.25)] rounded-xl p-4 shadow-lg">
       <div class="flex items-center justify-between">
-        <h1 class="text-lg text-gray-800 leading-tight font-bold sm:text-base">Home Care</h1>
-      <p class="text-muted-foreground text-base leading-tight">5 products</p>
+        <h1 class="text-lg text-[#EAE3DE] leading-tight font-bold sm:text-base">Home Care</h1>
+      <p class="text-muted-foreground text-base leading-tight text-[#A18E88]">5 products</p>
       </div>
-      <p class="mt-1 text-gray-600 text-sm font-semibold">
+      <p class="mt-1 text-[#A29089] text-sm font-semibold">
        Aetheria’s Homecare collection brings a touch of luxury and comfort to your space,  Aetheria’s Homecare collection brings...
       </p>
       
@@ -432,12 +420,12 @@
   class="hero rounded-2xl w-full h-full"
   style="background-image:url(./img/DSC00394_1.webp); background-position: center; background-repeat: no-repeat;background-size: cover;">
   <div class="hero flex items-end px-3 md:py-2 py-24">
-    <div class="mt-[600px] bg-white/80 rounded-xl p-4 shadow-lg">
+    <div class="mt-[600px] backdrop-blur-xl bg-[rgba(0,0,0,0.35)] bg-gradient-to-b from-[rgba(0,0,0,0.45)] to-[rgba(0,0,0,0.25)] rounded-xl p-4 shadow-lg">
       <div class="flex items-center justify-between">
-        <h1 class="text-lg text-gray-800 leading-tight font-bold sm:text-base">Body Care</h1>
-      <p class="text-muted-foreground text-base leading-tight">2 products</p>
+        <h1 class="text-lg text-[#EAE3DE] leading-tight font-bold sm:text-base">Body Care</h1>
+      <p class="text-muted-foreground text-base text-[#A18E88] leading-tight">2 products</p>
       </div>
-      <p class="mt-1 text-gray-600 text-sm font-semibold">
+      <p class="mt-1 text-[#A29089] text-sm font-semibold">
        Aetheria Bodycare is all about giving your skin the love it deserves – gentle, effective, and beautifully made.
       </p>
       
@@ -450,12 +438,12 @@
   class="hero rounded-2xl w-full h-full"
   style="background-image:url(./img/dgrasfsflzyefclbhjjb.webp); background-position: center; background-repeat: no-repeat;background-size: cover;">
   <div class="hero flex items-end px-3 md:py-2 py-24">
-    <div class="mt-[600px] bg-white/80 rounded-xl p-4 shadow-lg">
+    <div class="mt-[600px] backdrop-blur-xl bg-[rgba(0,0,0,0.35)] bg-gradient-to-b from-[rgba(0,0,0,0.45)] to-[rgba(0,0,0,0.25)] rounded-xl p-4 shadow-lg">
       <div class="flex items-center justify-between">
-        <h1 class="text-lg text-gray-800 leading-tight font-bold sm:text-base">Body Mist</h1>
-      <p class="text-muted-foreground text-base leading-tight">16 products</p>
+        <h1 class="text-lg text-[#EAE3DE] leading-tight font-bold sm:text-base">Body Mist</h1>
+      <p class="text-muted-foreground text-base text-[#A18E88] leading-tight">16 products</p>
       </div>
-      <p class="mt-1 text-gray-600 text-sm font-semibold">
+      <p class="mt-1 text-[#A29089] text-sm font-semibold">
        Meet the Aetheria Body Mist Collection – your new go-to for a burst of freshness! With dreamy scents that float around you like...
       </p>
       
@@ -477,12 +465,12 @@
               <!-- featured products -->
          <div class="flex justify-evenly items-center my-6">
            <div>
-            <h1 class="text-xl font-bold md:text-3xl lg:text-5xl xl:text-4xl text-black font-Fraunces">Featured Products</h1>
+            <h1 class="text-xl font-bold md:text-3xl lg:text-5xl xl:text-4xl text-[#503229] font-Fraunces">Featured Products</h1>
             <p class="text-[#62514C] text-xl font-bold md:text-3xl xl:text-4xl lg:text-4xl font-Fraunces">that define excellence</p>
            </div>
-           <hr class="bg-[#62514C] xl:w-[1000px] lg:w-[500px] md:w-[400px]">
+           <hr class="custom-line">
            <div>
-            <h2 class="md:text-6xl lg:text-6xl font-bold text-4xl text-primary/35 font-Fraunces">03</h2>
+            <h2 class="md:text-6xl lg:text-6xl font-bold text-4xl text-[#503229] font-Fraunces">03</h2>
            </div>
          </div>
          <!-- featured products -->
@@ -491,8 +479,8 @@
             <!-- grid -->
              <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       24% OFF
     </span>
@@ -500,7 +488,7 @@
       src="img/featured1.webp"
       alt="featured2"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -510,27 +498,22 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Lilac Lush</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Body Milk Moisturizer</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Lilac Lush</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Body Milk Moisturizer</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 650</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 850</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 650</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 850</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
                 <!-- card -->
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       12% OFF
     </span>
@@ -538,7 +521,7 @@
       src="img/featured2.webp"
       alt="featured2"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -548,27 +531,22 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Crème Brulee</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Body Milk Moisturizer</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Crème Brulee</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Body Milk Moisturizer</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 750</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 850</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 750</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 850</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
                 <!-- card -->
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       29% OFF
     </span>
@@ -576,7 +554,7 @@
       src="img/featured3.webp"
       alt="featured3"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -586,27 +564,23 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Honey Haze Hair Mist</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Hair Care</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Honey Haze Hair Mist</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Hair Care</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 750</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 1,050</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 750</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 1,050</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
+
     </div>
   </div>
 </div>
                 <!-- card -->
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       29% OFF
     </span>
@@ -614,7 +588,7 @@
       src="img/featured4.webp"
       alt="featured4"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -624,20 +598,15 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Hair Gloss Oil</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Hair Care</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Hair Gloss Oil</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Hair Care</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 750</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 1,050</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 750</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 1,050</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
@@ -656,12 +625,12 @@
            <!-- Sellers -->
          <div class="flex justify-evenly items-center my-6">
            <div>
-            <h1 class="text-xl font-bold md:text-3xl lg:text-5xl xl:text-4xl text-black font-Fraunces">Best Sellers</h1>
+            <h1 class="text-xl font-bold md:text-3xl lg:text-5xl xl:text-4xl text-[#503229] font-Fraunces">Best Sellers</h1>
             <p class="text-[#62514C] text-xl font-bold md:text-3xl lg:text-5xl xl:text-4xl font-Fraunces">Everyone's Talking about</p>
            </div>
-           <hr class="bg-[#62514C] xl:w-[1000px] lg:w-[500px] md:w-[400px]">
+           <hr class="custom-line">
            <div>
-            <h2 class="md:text-6xl lg:text-7xl font-bold text-4xl text-primary/35 font-Fraunces">04</h2>
+            <h2 class="md:text-6xl lg:text-7xl font-bold text-4xl text-[#503229] font-Fraunces">04</h2>
            </div>
          </div>
          <!-- Sellers -->
@@ -670,8 +639,8 @@
             <!-- grid -->
              <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       10% OFF
     </span>
@@ -679,7 +648,7 @@
       src="img/sellers1.webp"
       alt="sellers1"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -689,27 +658,22 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Lementine Lush</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Room Mist</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Lementine Lush</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Room Mist</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 450</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 500</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 450</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 500</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
                 <!-- card -->
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       24% OFF
     </span>
@@ -717,7 +681,7 @@
       src="img/seller2.webp"
       alt="seller2"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -727,27 +691,22 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Lilac Lush</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Body Milk Moisturizer</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Lilac Lush</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Body Milk Moisturizer</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 650</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 850</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 650</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 850</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
                 <!-- card -->
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       12% OFF
     </span>
@@ -755,7 +714,7 @@
       src="img/sellers3.webp"
       alt="sellers3.webp"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -765,27 +724,22 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Crème Brulee</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Body Milk Moisturizer</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Crème Brulee</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Body Milk Moisturizer</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 750</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 850</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 750</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 850</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
                 <!-- card -->
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       29% OFF
     </span>
@@ -793,7 +747,7 @@
       src="img/sellers4.webp"
       alt="sellers4.webp"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -803,20 +757,15 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Hair Mist - Crème Brulee</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Hair Care</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Hair Mist - Crème Brulee</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Hair Care</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 750</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 1,050</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 750</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 1,050</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
@@ -835,12 +784,12 @@
             <!-- Arrivals -->
          <div class="flex justify-evenly items-center my-6">
            <div>
-            <h1 class="text-xl font-bold md:text-3xl lg:text-5xl xl:text-4xl text-black font-Fraunces">New Arrivals</h1>
+            <h1 class="text-xl font-bold md:text-3xl lg:text-5xl xl:text-4xl text-[#503229] font-Fraunces">New Arrivals</h1>
             <p class="text-[#62514C] text-xl font-bold md:text-3xl lg:text-5xl xl:text-4xl font-Fraunces">fresh from our shelves</p>
            </div>
-           <hr class="bg-[#62514C] xl:w-[1000px] lg:w-[500px] md:w-[400px]">
+           <hr class="custom-line">
            <div>
-            <h2 class="md:text-6xl lg:text-7xl font-bold text-4xl text-primary/35 font-Fraunces">05</h2>
+            <h2 class="md:text-6xl lg:text-7xl font-bold text-4xl text-[#503229] font-Fraunces">05</h2>
            </div>
          </div>
          <!-- Arrivals -->
@@ -849,8 +798,8 @@
             <!-- grid -->
              <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1">
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       47% OFF
     </span>
@@ -858,7 +807,7 @@
       src="img/arrivals.webp"
       alt="arrivals"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -868,27 +817,22 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Mystic Mystery (Capless Bottle)</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Body Mist</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Mystic Mystery (Capless Bottle)</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Body Mist</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 450</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 850</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 450</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 850</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
                 <!-- card -->
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       17% OFF
     </span>
@@ -896,7 +840,7 @@
       src="img/arrivals1.webp"
       alt="arrivals1"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -906,27 +850,22 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Petrichor</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Room Mist</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Petrichor</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Room Mist</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 500</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 600</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 500</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 600</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
                 <!-- card -->
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       24% OFF
     </span>
@@ -934,7 +873,7 @@
       src="img/seller2.webp"
       alt="sellers3.webp"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -944,27 +883,22 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Lilac Lush</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Body Milk Moisturizer</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Lilac Lush</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Body Milk Moisturizer</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 650</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 850</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 650</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 850</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
                 <!-- card -->
                 <!-- card -->
-                 <div class="bg-white rounded-2xl overflow-hidden p-4">
-  <div class="relative rounded-xl overflow-hidden bg-gray-50">
+                 <div class="bg-black rounded-2xl overflow-hidden p-4">
+  <div class="relative rounded-xl overflow-hidden bg-black">
     <span class="absolute top-3 left-3 bg-emerald-700 text-white text-xs font-semibold px-3 py-1 rounded-full shadow">
       12% OFF
     </span>
@@ -972,7 +906,7 @@
       src="img/sellers3.webp"
       alt="sellers4.webp"/>
     <button
-      class="absolute right-4 bottom-4 bg-white text-gray-800 text-sm font-medium rounded-full px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
+      class="absolute right-4 bottom-4 bg-black text-white text-sm font-medium rounded-xl px-4 py-2 flex items-center gap-2 shadow hover:scale-105 transition-transform"
     >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.985 9.75H19.5a.75.75 0 01.71.962l-1.5 6A.75.75 0 0118 17.25H7.106a.75.75 0 01-.728-.546L4.162 5.605 3.28 3.165A.75.75 0 012.25 3z" />
@@ -982,20 +916,15 @@
     </button>
   </div>
   <div class="mt-4">
-    <h3 class="text-lg font-bold text-gray-900">Crème Brulee</h3>
-    <p class="text-sm text-gray-500 font-bold mt-1">Body Milk Moisturizer</p>
+    <h3 class="text-lg font-bold text-[#EAE3DE]">Crème Brulee</h3>
+    <p class="text-sm text-[#A28F8A] font-bold mt-1">Body Milk Moisturizer</p>
     <div class="mt-3 flex items-end justify-between">
       <div>
         <div class="flex items-baseline gap-2">
-          <span class="text-xl font-bold text-gray-900">BDT 750</span>
-          <span class="text-sm text-gray-400 font-bold line-through">BDT 850</span>
+          <span class="text-xl font-bold text-[#EAE3DE]">BDT 750</span>
+          <span class="text-sm text-[#7E6E6A] font-bold line-through">BDT 850</span>
         </div>
       </div>
-      <button
-        class="hidden sm:inline-flex items-center gap-2 bg-rose-50 text-blue-700 px-3 py-1 rounded-full text-sm font-medium shadow-sm hover:bg-rose-100 ">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-plus h-3 w-3 sm:h-4 sm:w-4"><!----><path d="M5 12h14"></path><!----><path d="M12 5v14"></path><!----><!----><!----></svg>
-       Add to Card
-      </button>
     </div>
   </div>
 </div>
@@ -1012,22 +941,22 @@
            </div>
           <!-- Sellers products -->
            <!-- follow our journey -->
-            <h3 class="font-DM-Sans font-bold text-2xl text-center text-black mb-6 mt-20">Follow Our Journey</h3>
+            <h3 class="font-DM-Sans font-bold text-2xl text-center text-[#EAE3DE] mb-6 mt-20">Follow Our Journey</h3>
             <p class="font-DM-Sans font-semibold text-lg text-center text-[#62514C] mb-16">Stay connected and get the latest updates, behind-the-scenes content, and <br> community highlights.</p>
             <!-- flex -->
              <div class="flex gap-4 justify-center md:flex-row flex-col px-4 mb-28">
                 <!-- card -->
-               <button class="bg-[#F1E2DC] px-20 py-4 rounded-2xl hover:bg-white transition">
+               <button class="bg-[#30211B] px-20 py-4 rounded-2xl hover:bg-[#181413] transition">
                 <i class="fa-brands fa-square-facebook text-6xl rounded-full text-blue-700"></i>
                 <p class="text-base font-bold font-DM-Sans">Facebook</p>
                </button>
                <!-- card -->
-               <button class="bg-[#F1E2DC] px-20 py-4 rounded-2xl hover:bg-white transition">
+               <button class="bg-[#30211B] px-20 py-4 rounded-2xl hover:bg-[#181413] transition">
                 <i class="fa-brands fa-square-instagram text-[#E4405F] text-6xl rounded-full"></i>
                 <p class="text-base font-bold font-DM-Sans">Instagram</p>
                </button>
                <!-- card -->
-               <button class="bg-[#F1E2DC] px-20 py-4 rounded-2xl hover:bg-white transition">
+               <button class="bg-[#30211B] px-20 py-4 rounded-2xl hover:bg-[#181413] transition">
                <i class="fa-brands fa-square-whatsapp text-[#25D366] text-6xl rounded-full"></i>
                 <p class="text-base font-bold font-DM-Sans">Facebook</p>
                </button>
@@ -1037,11 +966,11 @@
            <!-- follow our journey -->
             <!-- customers -->
               <div class="flex justify-center mt-10 px-11 mb-20">
-            <div class="inline-flex items-center bg-[#F7EBE8] px-4 py-2 rounded-full">
-           <a class="text-sm text-[#AF6A5C]" href="#">1500+ Happy Customers</a>
+            <div class="inline-flex items-center bg-[#190F0C] px-4 py-2 rounded-full">
+           <a class="text-sm font-DM-Sans text-[#E08B68]" href="#">1500+ Happy Customers</a>
           </div>
           </div>
-          <h1 class="font-Fraunces text-black text-[30px] font-bold text-center mb-6">What Our Customers Say</h1>
+          <h1 class="font-Fraunces text-[#EAE3DE] text-[30px] font-bold text-center mb-6">What Our Customers Say</h1>
           <div class="flex justify-center gap-3 items-center mb-20">
             <div class="gap-2">
               <i class="fa-solid fa-star text-[#AF644E]"></i>
@@ -1050,14 +979,14 @@
             <i class="fa-solid fa-star text-[#AF644E]"></i>
             <i class="fa-solid fa-star text-[#AF644E]"></i>
             </div>
-            <p class="font-medium text-[16px] font-DM-Sans text-[#626E95]"><span class="mr-2">5/5</span> average rating</p>
+            <p class="font-medium text-[16px] font-DM-Sans text-[#9D8885]"><span class="mr-2">5/5</span> average rating</p>
           </div>
             <!-- customers -->
              <!-- customers review -->
               <div class="flex justify-center gap-6 md:flex-row flex-col px-2 mb-16">
                 <!-- comments -->
-                 <div class="bg-[#F2E9E4]  p-6 rounded-xl">
-                <h3 class="text-[20px] font-bold font-DM-Sans mb-10">
+                 <div class="bg-[#190F0C]  p-6 rounded-xl">
+                <h3 class="text-[20px] font-bold font-DM-Sans text-[#E5DED9] mb-10">
                   "Aetheria's products have completely <br> transformed my skincare routine. My skin <br> feels so soft, hydrated, and radiant!"
                 </h3>
                 <div class="gap-2 mb-2">
@@ -1067,15 +996,15 @@
             <i class="fa-solid fa-star text-[#AF644E]"></i>
             <i class="fa-solid fa-star text-[#AF644E]"></i>
             </div>
-            <h3 class="font-DM-Sans text-[16px] font-normal text-black">
+            <h3 class="font-DM-Sans text-[16px] font-normal text-[#CFDCDE]">
               Mira Ahmed
             </h3>
             <p class="text-[#62514C] font-DM-Sans text-[16px] font-normal">Beauty Blogger</p>
               </div>
                 <!-- comments -->
                 <!-- comments -->
-                 <div class="bg-[#F2E9E4]  p-6 rounded-xl">
-                <h3 class="text-[20px] font-bold font-DM-Sans mb-10">
+                 <div class="bg-[#190F0C]  p-6 rounded-xl">
+                <h3 class="text-[20px] font-bold font-DM-Sans text-[#E5DED9] mb-10">
                   "It feels premium yet so affordable. Finally, a <br> brand that gives you spa‑like care without <br> breaking the bank!"
                 </h3>
                 <div class="gap-2 mb-2">
@@ -1085,15 +1014,15 @@
             <i class="fa-solid fa-star text-[#AF644E]"></i>
             <i class="fa-solid fa-star text-[#AF644E]"></i>
             </div>
-            <h3 class="font-DM-Sans text-[16px] font-normal text-black">
+            <h3 class="font-DM-Sans text-[16px] font-normal text-[#CFDCDE]">
              Farhana Hossain
             </h3>
             <p class="text-[#62514C] font-DM-Sans text-[16px] font-normal">Customer</p>
               </div>
                 <!-- comments -->
                 <!-- comments -->
-                 <div class="bg-[#F2E9E4]  p-6 rounded-xl">
-                <h3 class="text-[20px] font-bold font-DM-Sans mb-10">
+                 <div class="bg-[#190F0C]  p-6 rounded-xl">
+                <h3 class="text-[20px] font-bold font-DM-Sans text-[#E5DED9] mb-10">
                   "The scent is absolutely divine! It's not <br> overpowering but lasts all day long. I can't stop <br> sniffing myself!"
                 </h3>
                 <div class="gap-2 mb-2">
@@ -1103,7 +1032,7 @@
             <i class="fa-solid fa-star text-[#AF644E]"></i>
             <i class="fa-solid fa-star text-[#AF644E]"></i>
             </div>
-            <h3 class="font-DM-Sans text-[16px] font-normal text-black">
+            <h3 class="font-DM-Sans text-[16px] font-normal text-[#CFDCDE]">
               Sarah Khan
             </h3>
             <p class="text-[#62514C] font-DM-Sans text-[16px] font-normal">Fragrance Enthusiast</p>
@@ -1112,8 +1041,8 @@
               </div>
              <!-- customers review -->
               <!-- asked questions -->
-               <h1 class="font-Fraunces text-black text-[30px] font-bold text-center mb-6">Frequently Asked Questions</h1>
-               <p class="text-[#62514C] text-lg font-normal font-DM-Sans text-center mb-16">Find answers to common questions about our products, shipping, returns, and more. Can't <br> find what
+               <h1 class="font-Fraunces text-[#EAE3DE] text-[30px] font-bold text-center mb-6">Frequently Asked Questions</h1>
+               <p class="text-[#A7938E] text-lg font-normal font-DM-Sans text-center mb-16">Find answers to common questions about our products, shipping, returns, and more. Can't <br> find what
                     you're looking for? Contact our support team.</p>
               <!-- asked questions -->
                <!-- flex -->
@@ -1122,7 +1051,7 @@
                   <!-- 1st questions -->
                     <div>
                     <div class="join join-vertical">
-  <div class="collapse collapse-arrow  bg-[#F2E9E4]  rounded-xl px-4 py-3 mb-6">
+  <div class="collapse collapse-arrow  bg-[#190F0C]  rounded-xl px-4 py-3 mb-6">
     <input type="radio" name="my-accordion-4" />
     <div class="collapse-title text-xl font-medium">What makes Aetheria's self‑care products special?</div>
     <div class="collapse-content">
@@ -1131,7 +1060,7 @@
       </p>
     </div>
   </div>
-  <div class="collapse collapse-arrow  bg-[#F2E9E4] rounded-xl  px-4 py-3 mb-6">
+  <div class="collapse collapse-arrow  bg-[#190F0C] rounded-xl  px-4 py-3 mb-6">
     <input type="radio" name="my-accordion-4" />
     <div class="collapse-title text-xl font-medium">How do I choose the right product for me?</div>
     <div class="collapse-content">
@@ -1140,7 +1069,7 @@
       </p>
     </div>
   </div>
-  <div class="collapse collapse-arrow  bg-[#F2E9E4]  rounded-xl  px-4 py-3 mb-6">
+  <div class="collapse collapse-arrow  bg-[#190F0C]  rounded-xl  px-4 py-3 mb-6">
     <input type="radio" name="my-accordion-4" />
     <div class="collapse-title text-xl font-medium">How do I make my scent last longer?</div>
     <div class="collapse-content">
@@ -1149,7 +1078,7 @@
       </p>
     </div>
   </div>
-   <div class="collapse collapse-arrow  bg-[#F2E9E4]  rounded-xl px-4 py-3 mb-6">
+   <div class="collapse collapse-arrow  bg-[#190F0C]  rounded-xl px-4 py-3 mb-6">
     <input type="radio" name="my-accordion-4" />
     <div class="collapse-title text-xl font-medium">Do your products stain clothes?</div>
     <div class="collapse-content">
@@ -1158,7 +1087,7 @@
       </p>
     </div>
   </div>
-  <div class="collapse collapse-arrow  bg-[#F2E9E4]  rounded-xl px-4 py-3 mb-6">
+  <div class="collapse collapse-arrow  bg-[#190F0C]  rounded-xl px-4 py-3 mb-6">
     <input type="radio" name="my-accordion-4" />
     <div class="collapse-title text-xl font-medium">How can I stay updated on new launches and offers?</div>
     <div class="collapse-content">
@@ -1174,7 +1103,7 @@
                    <!-- 2nd questions -->
                     <div>
                       <div class="join join-vertical">
-  <div class="collapse collapse-arrow  bg-[#F2E9E4]  rounded-xl px-4 py-3 mb-6">
+  <div class="collapse collapse-arrow  bg-[#190F0C]  rounded-xl px-4 py-3 mb-6">
     <input type="radio" name="my-accordion-4" />
     <div class="collapse-title text-xl font-medium">Are your products safe for all skin types?</div>
     <div class="collapse-content">
@@ -1183,14 +1112,14 @@
       </p>
     </div>
   </div>
-  <div class="collapse collapse-arrow  bg-[#F2E9E4]  rounded-xl px-4 py-3 mb-6">
+  <div class="collapse collapse-arrow  bg-[#190F0C]  rounded-xl px-4 py-3 mb-6">
     <input type="radio" name="my-accordion-4" />
     <div class="collapse-title text-xl font-medium">Are Aetheria's products cruelty‑free?</div>
     <div class="collapse-content">
       <p>Absolutely! We are proudly cruelty‑free — no animal testing, ever. Our products are made <br> with care, respect, and kindness to the environment.</p>
     </div>
   </div>
-  <div class="collapse collapse-arrow  bg-[#F2E9E4] rounded-xl px-4 py-3 mb-6">
+  <div class="collapse collapse-arrow  bg-[#190F0C] rounded-xl px-4 py-3 mb-6">
     <input type="radio" name="my-accordion-4" />
     <div class="collapse-title text-xl font-medium">Can I return or exchange a product?</div>
     <div class="collapse-content">
@@ -1199,7 +1128,7 @@
       </p>
     </div>
   </div>
-  <div class="collapse collapse-arrow  bg-[#F2E9E4]  rounded-xl px-4 py-3 mb-6">
+  <div class="collapse collapse-arrow  bg-[#190F0C]  rounded-xl px-4 py-3 mb-6">
     <input type="radio" name="my-accordion-4" />
     <div class="collapse-title text-xl font-medium">How long will one bottle last me?</div>
     <div class="collapse-content">
@@ -1216,16 +1145,16 @@
                <!-- questions -->
                 <!-- still have questions -->
                  <div class="flex justify-center mb-20">
-                  <div class="text-center bg-[#F2E9E4] md:px-14 px-2 py-9 rounded-xl">
-                    <h3 class="text-[24px] text-black font-bold font-DM-Sans mb-6">Still have questions?</h3>
+                  <div class="text-center bg-[#190F0C] md:px-14 px-2 py-9 rounded-xl">
+                    <h3 class="text-[24px] text-[#EAE3DE] font-bold font-DM-Sans mb-6">Still have questions?</h3>
                     <p class="mb-6 text-base font-medium text-[#62514C] font-DM-Sans">Our customer support team is here to help. Reach out through our social media <br> channels or
                             browse our help center for more detailed information.</p>
                     <div class="flex gap-5 justify-center">
-                      <button class="flex items-center gap-1 font-DM-Sans bg-[#AF644E] hover:bg-white hover:text-black duration-500 px-4 py-2 text-white rounded-2xl text-base font-semibold">
+                      <button class="flex items-center gap-1 font-DM-Sans bg-[#AF644E] px-4 py-2 text-white rounded-2xl text-base font-semibold">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-phone mr-2 h-4 w-4"><!--[--><!----><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"><!----></path><!----><!--]--><!----><!----></svg>
                       Call us
                     </button>
-                    <button class="flex items-center gap-1 font-DM-Sans bg-[#fff] px-4 py-2 hover:text-white text-black hover:bg-[#AF644E] duration-500 rounded-2xl text-base font-semibold">
+                    <button class="flex items-center gap-1 font-DM-Sans bg-[#170D0A] px-4 py-2 text-white rounded-2xl text-base font-semibold">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-mail mr-2 h-4 w-4"><!--[--><!----><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"><!----></path><!----><!----><rect x="2" y="4" width="20" height="16" rx="2"><!----></rect><!----><!--]--><!----><!----></svg>
                       Call us
                     </button>
